@@ -10,3 +10,4 @@ numbers = input_ten_numbers()
 #Identify unique numbers using the second function.
 unique_numbers = finding_unique(numbers)
 #Print the unique numbers.
+print("THe numbers without duplicates are:", unique_numbers)
