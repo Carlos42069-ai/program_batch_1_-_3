@@ -6,3 +6,6 @@ if num2 !=0:
     quotient = num1 // num2
     
 #Printing the quotient 
+    print("The quotient is: ", quotient)
+else:
+    print("PLease enter your first and second number again")
