@@ -11,4 +11,5 @@ num9 = float(input("Enter your nineth number "))
 num10 = float(input("Enter your tenth number "))
 
 #Make a variable name and its function
+sum_of_numbers = num1 + num2 + num3 + num4 + num5 + num6 + num7 + num8 + num9 + num10
 #Print the sum of all numbers
