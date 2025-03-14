@@ -6,5 +6,7 @@ def finding_unique(numbers):
         return [num for num in numbers if numbers.count(num) == 1]
 
 #Get user input by calling the input function.
+numbers = input_ten_numbers()
 #Identify unique numbers using the second function.
+unique_numbers = finding_unique(numbers)
 #Print the unique numbers.
