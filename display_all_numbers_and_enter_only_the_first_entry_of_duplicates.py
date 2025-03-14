@@ -3,9 +3,12 @@ def input_numbers():
     return [int(input("Enter a number: ")) for numero in range(10)]
 #Keep only the first occurrence of each number.
 def remove_duplicates(numbers):
-        result = []
+    result = []
     for num in numbers:
         if num not in result:
             result.append(num)
     return result
 #Print the final list of numbers.
+numbers = input_numbers()
+filtered_numbers = remove_duplicates(numbers)
+print("Filtered numbers:", filtered_numbers)
